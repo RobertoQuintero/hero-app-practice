@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <HeroScreen /> debe de llamar el Redirect si el heroe no existe 1`] = `""`;

@@ -5,7 +5,8 @@ import { getHeroeById } from "../../selectors/getHeroById";
 const HeroScreen = ({ history }) => {
   const { heroId } = useParams();
   const hero = useMemo(() => getHeroeById(heroId)[0], [heroId]);
-  if (!hero) {
+  console.log(hero);
+  if (!hero || hero === undefined) {
     return <Redirect to="/" />;
   }
 
